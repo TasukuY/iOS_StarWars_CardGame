@@ -10,11 +10,11 @@ import UIKit
 class Character {
     //MARK: - Properties
     let name: String
-    let photo: UIImage
+    let photo: UIImage?
     let faction: String
     
     //MARK: - Initializer
-    init(name: String, photo: UIImage, faction: String){
+    init(name: String, photo: UIImage?, faction: String){
         self.name = name
         self.photo = photo
         self.faction = faction
